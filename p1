@@ -1,0 +1,31 @@
+modernas = {
+            "LOL": "Algo gracioso o algo ironico",
+            "XD" : "expresion de risa",
+            "xq" : "simplificacion de la palabra porque",
+            "cringe" : "Algo raro o embarazoso"
+            
+    
+}
+
+print("BIENVENIDO AL TRADUCTOR DE PALABRAS CINSIDERADAS MODERNAS!!!")
+print("############################################################")
+
+palabras = ["LOL", "XD" , "xq"]
+
+print("palabras que hay..." , palabras)
+pregunta = input("que palabra no te sabes")
+
+if pregunta == "LOL":
+    print(modernas["LOL"])
+    
+elif pregunta == "XD":
+    print(modernas["XD"])    
+    
+elif pregunta == "xq":
+    print(modernas["xq"])    
+
+elif pregunta == "cringe":
+    print(modernas["cringe"])        
+else:
+    # ¿Qué hacer si no se encuentra la palabra?
+    print("OK")
